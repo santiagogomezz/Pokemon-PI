@@ -1,0 +1,19 @@
+.infobtn{
+    color: #fff;
+    background-color: rgba(64, 63, 63, 0.85);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: 0.8s;
+    transition-property: background;
+    outline: none;
+    border: none;
+  }
+
+  .infobtn:hover{
+    background: #6e7b7e;
+  }

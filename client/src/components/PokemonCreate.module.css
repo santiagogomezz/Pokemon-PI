@@ -1,0 +1,61 @@
+.body{
+    background: url(../images/poke10.webp);
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(45, 44, 44, 0.85);
+    border-radius: 25px;
+    width: 900px;
+    height: 500px;
+    color:#fff;
+    
+
+}
+.form div{
+ padding: 15px;
+ 
+}
+.form div input{
+    border-radius: 50px;
+}
+.form div select{
+    border-radius: 40px;
+    margin-left: 80px;
+    margin-right: 3s0px;
+}
+.form ul{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 80px;
+    margin-right: 100px;
+   
+}
+
+.link{
+    position: relative;
+    margin-right: 750px;
+    top: -90px;
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}

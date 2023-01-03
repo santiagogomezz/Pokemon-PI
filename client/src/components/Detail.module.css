@@ -1,0 +1,74 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background: url(../images/poke8.jpeg);
+    min-height: 100vh;
+
+}
+
+
+.card{
+    margin-top: 60px;
+    display: flex;
+    width: 1000px;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(40, 40, 40, 0.85);
+    backdrop-filter: blur(10px);
+    align-items:center ;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 630;
+    margin-left: 30%;
+    border-radius: 140px;
+    color: rgb(242, 242, 242);
+}
+.card h1{
+    margin-right: 80px;
+}
+.card h4{
+    margin-right: 140px;
+}
+.card img{
+    margin-left: 90px;
+    justify-content: center;
+    width: 500px;
+    height: 430px;
+}
+
+.stats{
+    display: inline-flexbox;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 50px;
+    
+}
+.stats h1{
+    margin-left: 60px;
+    justify-content: center;
+}
+
+.link{
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid;
+    width: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    
+    margin-left: 800px;
+    
+}

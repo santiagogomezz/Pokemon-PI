@@ -1,0 +1,92 @@
+.body{
+    min-height: 100vh;
+    background: url(../images/poke8.jpeg);
+    
+   }
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 80px;
+}
+
+.links{
+    position: relative;
+    right: -1050px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 80px;
+}
+.navbar{
+    background-color: rgba(40, 40, 40, 3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+}
+
+
+.navbar select{
+    margin-right: 150px;
+}
+
+.selects{
+    position: absolute;
+    left: 20px;
+    margin-right:80px;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    right: -100px;
+        
+}
+.search input{
+    background-color: rgba(64, 63, 63, 0.85);
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    color: #fff;
+    
+}
+.search input::placeholder{
+    justify-content: center;
+    color: #fff;
+}
+
+.infobtn{
+    color: #fff;
+    background-color: rgba(64, 63, 63, 0.85);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.8s;
+    transition-property: background;
+    outline: none;
+    border: none;
+  }
+
+  .infobtn:hover{
+    background: #4f585a;
+  }
+
+
